@@ -52,7 +52,7 @@ class _TasksScreenState extends State<TasksScreen> {
                 top: 60.0, left: 30.0, right: 30.0, bottom: 30.0),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
-              children: const <Widget>[
+              children: <Widget>[
                 CircleAvatar(
                   child: Icon(
                     Icons.list,
@@ -74,7 +74,7 @@ class _TasksScreenState extends State<TasksScreen> {
                   ),
                 ),
                 Text(
-                  '${tasks.length} Tasks',
+                  '${tasks.length} Task',
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 18,

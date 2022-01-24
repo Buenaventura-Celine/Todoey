@@ -54,6 +54,10 @@ class TasksScreen extends StatelessWidget {
           ),
           Expanded(
             child: Container(
+              child: CheckboxListTile(
+                title: Text('Task 1'),
+                controlAffinity: ListTileControlAffinity.trailing,
+              ),
               height: 300.0,
               decoration: BoxDecoration(
                 color: Colors.white,
